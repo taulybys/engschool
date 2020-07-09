@@ -8672,7 +8672,7 @@ a {
     margin-left: 10px; }
 
 .rasschet-zarabotok h2 {
-  margin-top: -280px !important;
+  margin-top: 10px;
   padding-bottom: 30px; }
 
 .rasschet-zarabotok form.width1140 {
@@ -8687,7 +8687,7 @@ a {
     border-radius: 4px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    width: 200px;
+    width: 250px;
     border: 0;
     color: #2c3e50;
     font-family: "Montserrat", sans-serif;
@@ -8700,7 +8700,7 @@ a {
         border-bottom: dashed 1px;
         outline: dotted red; }
   .rasschet-zarabotok form.width1140 input {
-    width: 200;
+    width: 250px;
     margin: 10px 10px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
@@ -8743,31 +8743,37 @@ a {
   background-repeat: no-repeat;
   background-position: bottom left;
   background-size: cover;
-  height: 264px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around; }
-  .test-options h5 {
-    padding-top: 80px;
-    padding-right: 30px;
-    padding-bottom: 25px; }
-  .test-options a {
-    margin-left: 45px;
-    margin-right: 75px; }
-    .test-options a:hover {
-      background: #ffffff;
-      text-decoration: none;
-      color: #5c5c5c;
-      cursor: pointer; }
-  .test-options .img {
+  height: 264px; }
+  .test-options .test-col-for-mob {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     background-image: url("../images/photo-1521572267360-ee0c2909d518.jpg");
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: 490px;
-    height: 264px;
-    width: 420px;
-    margin-right: 0; }
+    background-position: right;
+    background-size: 290px; }
+    .test-options .test-col-for-mob h5 {
+      padding-top: 80px;
+      padding-left: 170px;
+      padding-bottom: 25px;
+      width: 100%; }
+    .test-options .test-col-for-mob a {
+      margin-left: 55px;
+      margin-right: 55px;
+      width: 150px;
+      height: 40px; }
+      .test-options .test-col-for-mob a:hover {
+        background: #ffffff;
+        text-decoration: none;
+        color: #5c5c5c;
+        cursor: pointer; }
+    .test-options .test-col-for-mob .img {
+      height: 264px;
+      width: 420px;
+      margin-right: 0;
+      display: none; }
 
 .cases-to-learn h2 {
   margin: 30px auto; }
@@ -8906,7 +8912,7 @@ a {
           cursor: text;
           position: absolute;
           left: -3px;
-          bottom: -10px; }
+          bottom: -65px; }
           .tarifes .tarifes-options .tarifes-options_aside .pop-up-label .pop-up-block h4 {
             line-height: 25px;
             margin-top: 20px; }
@@ -9176,12 +9182,16 @@ a {
 @media (max-width: 1000px) {
   .rasschet-zarabotok h2 {
     margin-top: -90px; }
-  .test-options h5 {
-    margin-left: 80px; }
-  .test-options a {
-    margin-left: 120px; }
-  .test-options .img {
-    display: none; }
+  .test-options .test-col-for-mob {
+    background: transparent;
+    /* style */ }
+    .test-options .test-col-for-mob h5 {
+      margin-left: 5px;
+      padding-top: 20px !important;
+      padding-left: 20px !important;
+      text-align: center; }
+    .test-options .test-col-for-mob a {
+      margin-left: 120px; }
   .why-create .why-created_txtzone .not-for-mob {
     display: none; }
   .why-create .why-created_imgzone .rounded-photo {
@@ -9196,16 +9206,37 @@ a {
     top: 80px !important;
     right: 10px !important;
     border-radius: 90px 0px !important; }
+  .footer {
+    height: 150px; }
+    .footer .footer-contents {
+      -webkit-box-align: start !important;
+          -ms-flex-align: start !important;
+              align-items: start !important; }
+      .footer .footer-contents .footer-menu ul {
+        -webkit-box-orient: vertical !important;
+        -webkit-box-direction: normal !important;
+            -ms-flex-direction: column !important;
+                flex-direction: column !important;
+        font-size: 14px !important; }
+      .footer .footer-contents .footer-contacts {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        font-size: 11px !important; }
+    .footer .footer-author {
+      display: none; }
   .pop-up-block {
     width: 295px !important; } }
 
 @media (max-width: 768px) {
+  h2 {
+    font-size: 25px; }
   .header_body {
     height: 90px !important; }
     .header_body .header_logo {
       -webkit-box-flex: 0 !important;
           -ms-flex: 0 0 87px !important;
-              flex: 0 0 87px !important; }
+              flex: 0 0 87px !important;
+      margin-top: 15px !important; }
     .header_body .header_burger {
       display: block;
       width: 30px;
@@ -9275,6 +9306,9 @@ a {
     padding-bottom: 10px; }
   .top-banner h4 {
     font-size: 20px; }
+  .rasschet-zarabotok h2 {
+    margin-top: -280px !important;
+    font-size: 25px !important; }
   .test-options h5 {
     padding: 30px 10px 20px 100px !important; }
   .test-options a {
@@ -9301,8 +9335,8 @@ a {
         -ms-flex-direction: column;
             flex-direction: column; }
     .tarifes-options .tarifes-options_aside {
-      width: 400px !important;
-      height: 350px !important;
+      width: 360px !important;
+      height: 340px !important;
       margin-bottom: 10px; }
       .tarifes-options .tarifes-options_aside h4 {
         margin: 0px !important;
@@ -9318,18 +9352,18 @@ a {
       .tarifes-options .tarifes-options_aside .btn-yellow-tarifes {
         font-size: 20px; }
     .tarifes-options .pop-up-block {
-      width: 400px !important;
-      height: 350px !important;
+      width: 360px !important;
+      height: 340px !important;
       padding: 5px;
       font-size: 13px;
       left: -3px;
-      bottom: -45px !important; }
+      bottom: -35px !important; }
       .tarifes-options .pop-up-block h4 {
         line-height: 15px;
         margin-top: 5px; }
     .tarifes-options .teacher-pet {
-      width: 400px !important;
-      height: 350px !important;
+      width: 360px !important;
+      height: 340px !important;
       margin-bottom: 10px; }
       .tarifes-options .teacher-pet h4 {
         margin: 0px !important;
@@ -9341,16 +9375,16 @@ a {
       .tarifes-options .teacher-pet p {
         font-size: 25px !important;
         font-weight: 600;
-        padding: 10px; }
+        padding: 5px !important; }
       .tarifes-options .teacher-pet .btn-yellow-tarifes {
         font-size: 20px !important; }
       .tarifes-options .teacher-pet .pop-up-superblock {
-        width: 400px !important;
-        height: 350px !important;
+        width: 360px !important;
+        height: 340px !important;
         padding: 5px;
         font-size: 13px;
         left: -3px;
-        bottom: -8px !important; }
+        bottom: -20px !important; }
         .tarifes-options .teacher-pet .pop-up-superblock h4 {
           line-height: 15px;
           margin-top: 5px; }
@@ -9367,6 +9401,8 @@ a {
     overflow: hidden; } }
 
 @media (max-width: 630px) {
+  .header_contacts a {
+    font-size: 12px !important; }
   .why-create h3 {
     font-size: 20px !important; }
   .why-create .why-created_imgzone {
