@@ -9180,53 +9180,53 @@ a {
   display: none; }
 
 @media (max-width: 1000px) {
-  body {
+  .wrapper {
     background: #fff; }
-    body .rasschet-zarabotok h2 {
+    .wrapper .rasschet-zarabotok h2 {
       margin-top: -90px; }
-    body .test-options .test-col-for-mob {
+    .wrapper .test-options .test-col-for-mob {
       background: transparent;
       /* style */ }
-      body .test-options .test-col-for-mob h5 {
+      .wrapper .test-options .test-col-for-mob h5 {
         margin-left: 5px;
         padding-top: 20px !important;
         padding-left: 20px !important;
         text-align: center; }
-      body .test-options .test-col-for-mob a {
+      .wrapper .test-options .test-col-for-mob a {
         margin-left: 120px; }
-    body .why-create .why-created_txtzone .not-for-mob {
+    .wrapper .why-create .why-created_txtzone .not-for-mob {
       display: none; }
-    body .why-create .why-created_imgzone .rounded-photo {
+    .wrapper .why-create .why-created_imgzone .rounded-photo {
       width: 300px;
       height: 300px;
       top: 60px !important;
       right: 30px !important;
       border-radius: 90px 0px !important; }
-    body .why-create .why-created_imgzone .rectangle {
+    .wrapper .why-create .why-created_imgzone .rectangle {
       width: 300px !important;
       height: 300px !important;
       top: 80px !important;
       right: 10px !important;
       border-radius: 90px 0px !important; }
-    body .footer {
+    .wrapper .footer {
       height: 150px; }
-      body .footer .footer-contents {
+      .wrapper .footer .footer-contents {
         -webkit-box-align: start !important;
             -ms-flex-align: start !important;
                 align-items: start !important; }
-        body .footer .footer-contents .footer-menu ul {
+        .wrapper .footer .footer-contents .footer-menu ul {
           -webkit-box-orient: vertical !important;
           -webkit-box-direction: normal !important;
               -ms-flex-direction: column !important;
                   flex-direction: column !important;
           font-size: 14px !important; }
-        body .footer .footer-contents .footer-contacts {
+        .wrapper .footer .footer-contents .footer-contacts {
           -ms-flex-wrap: wrap;
               flex-wrap: wrap;
           font-size: 11px !important; }
-      body .footer .footer-author {
+      .wrapper .footer .footer-author {
         display: none; }
-    body .pop-up-block {
+    .wrapper .pop-up-block {
       width: 295px !important; } }
 
 @media (max-width: 768px) {
