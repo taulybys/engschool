@@ -9127,6 +9127,631 @@ a {
     .join-us .low-join-us a {
       margin-bottom: 50px; }
 
+.course-podbor-top {
+  padding: 150px 20px 10px 20px;
+  background-image: url(../images/education.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom 10px right;
+  background-size: 40%;
+  height: 550px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 30px; }
+  .course-podbor-top h2 {
+    text-align: center;
+    width: 100%; }
+  .course-podbor-top p {
+    width: 60%; }
+  .course-podbor-top a {
+    height: 50px;
+    margin: 20px 30px; }
+
+.course-pyramide .pyramide {
+  overflow: auto;
+  margin-top: 70px;
+  margin: auto;
+  max-width: 1300px;
+  margin: auto;
+  position: relative; }
+  .course-pyramide .pyramide .pyramide-txtzone .course-super-top {
+    margin-top: 35px;
+    margin-left: 30px;
+    width: 60%;
+    line-height: 30px; }
+  .course-pyramide .pyramide .pyramide-txtzone .course-middle-p {
+    width: 45%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    line-height: 30px; }
+  .course-pyramide .pyramide .pyramide-txtzone .course-attention {
+    width: 170px;
+    text-align: center;
+    color: red;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-left: 30px;
+    border: 1px solid red;
+    padding: 15px; }
+  .course-pyramide .pyramide .pyramide-blocks {
+    height: 900px; }
+    .course-pyramide .pyramide .pyramide-blocks .advanced {
+      position: absolute;
+      width: 150px;
+      height: 80px;
+      left: 980px;
+      top: 210px;
+      font-weight: 500;
+      border: 1px solid #E12828;
+      -webkit-box-align: end;
+          -ms-flex-align: end;
+              align-items: end;
+      -webkit-transition: background-color 1.5s ease-out;
+      transition: background-color 1.5s ease-out; }
+      .course-pyramide .pyramide .pyramide-blocks .advanced span {
+        opacity: 1;
+        position: relative;
+        padding: 5px 0 0 5px; }
+      .course-pyramide .pyramide .pyramide-blocks .advanced p {
+        opacity: 0;
+        position: relative;
+        line-height: 5px;
+        font-size: 1px; }
+      .course-pyramide .pyramide .pyramide-blocks .advanced:hover {
+        width: 1100px;
+        height: 140px;
+        left: 30px;
+        top: 200px;
+        z-index: 2;
+        background-color: #b92323;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; }
+        .course-pyramide .pyramide .pyramide-blocks .advanced:hover span {
+          opacity: 0;
+          position: relative; }
+        .course-pyramide .pyramide .pyramide-blocks .advanced:hover p {
+          opacity: 1;
+          position: relative;
+          z-index: 2;
+          line-height: 25px;
+          font-size: 16px;
+          margin-top: -16px;
+          margin-right: 5px;
+          cursor: default;
+          color: #ffffff;
+          padding: 0 10px 0 10px; }
+    .course-pyramide .pyramide .pyramide-blocks .upper-intermediate {
+      position: absolute;
+      width: 330px;
+      height: 80px;
+      left: 800px;
+      top: 310px;
+      font-weight: 500;
+      border: 1px solid #FE7F01;
+      -webkit-box-align: end;
+          -ms-flex-align: end;
+              align-items: end;
+      -webkit-transition: background-color 1.5s ease-out;
+      transition: background-color 1.5s ease-out; }
+      .course-pyramide .pyramide .pyramide-blocks .upper-intermediate span {
+        opacity: 1;
+        position: relative;
+        padding: 5px 0 0 5px; }
+      .course-pyramide .pyramide .pyramide-blocks .upper-intermediate p {
+        opacity: 0;
+        position: relative;
+        line-height: 25px; }
+      .course-pyramide .pyramide .pyramide-blocks .upper-intermediate:hover {
+        width: 1100px;
+        height: 135px;
+        left: 30px;
+        top: 300px;
+        z-index: 2;
+        background-color: #e67301;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; }
+        .course-pyramide .pyramide .pyramide-blocks .upper-intermediate:hover .boy, .course-pyramide .pyramide .pyramide-blocks .upper-intermediate:hover .toddler {
+          display: none; }
+        .course-pyramide .pyramide .pyramide-blocks .upper-intermediate:hover span {
+          opacity: 0;
+          position: relative; }
+        .course-pyramide .pyramide .pyramide-blocks .upper-intermediate:hover p {
+          opacity: 1;
+          position: relative;
+          z-index: 2;
+          margin-top: -16px;
+          margin-right: 5px;
+          background-position: 100% 0%;
+          cursor: default;
+          color: #ffffff;
+          padding: 0 10px 0 10px; }
+    .course-pyramide .pyramide .pyramide-blocks .intermediate {
+      position: absolute;
+      width: 500px;
+      height: 80px;
+      left: 630px;
+      top: 410px;
+      font-weight: 500;
+      border: 1px solid #FFB200;
+      -webkit-box-align: end;
+          -ms-flex-align: end;
+              align-items: end;
+      -webkit-transition: background-color 1.5s ease-out;
+      transition: background-color 1.5s ease-out; }
+      .course-pyramide .pyramide .pyramide-blocks .intermediate span {
+        opacity: 1;
+        position: relative;
+        padding: 5px 0 0 5px; }
+      .course-pyramide .pyramide .pyramide-blocks .intermediate p {
+        opacity: 0;
+        position: relative;
+        line-height: 25px; }
+      .course-pyramide .pyramide .pyramide-blocks .intermediate:hover {
+        width: 1100px;
+        height: 135px;
+        left: 30px;
+        top: 400px;
+        z-index: 2;
+        background-color: #e29e00;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; }
+        .course-pyramide .pyramide .pyramide-blocks .intermediate:hover span {
+          opacity: 0;
+          position: relative; }
+        .course-pyramide .pyramide .pyramide-blocks .intermediate:hover p {
+          opacity: 1;
+          position: relative;
+          z-index: 2;
+          margin-top: -16px;
+          margin-right: 5px;
+          cursor: default;
+          color: #ffffff;
+          padding: 0 10px 0 10px; }
+    .course-pyramide .pyramide .pyramide-blocks .pre-intermediate {
+      position: absolute;
+      width: 700px;
+      height: 80px;
+      left: 430px;
+      top: 510px;
+      font-weight: 500;
+      border: 1px solid #FFE600;
+      -webkit-box-align: end;
+          -ms-flex-align: end;
+              align-items: end;
+      -webkit-transition: background-color 1.5s ease-out;
+      transition: background-color 1.5s ease-out; }
+      .course-pyramide .pyramide .pyramide-blocks .pre-intermediate span {
+        opacity: 1;
+        position: relative;
+        padding: 5px 0 0 5px; }
+      .course-pyramide .pyramide .pyramide-blocks .pre-intermediate p {
+        opacity: 0;
+        position: relative;
+        line-height: 25px; }
+      .course-pyramide .pyramide .pyramide-blocks .pre-intermediate:hover {
+        width: 1100px;
+        height: 140px;
+        top: 500px;
+        left: 30px;
+        z-index: 2;
+        background-color: #dac400;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; }
+        .course-pyramide .pyramide .pyramide-blocks .pre-intermediate:hover span {
+          opacity: 0;
+          position: relative; }
+        .course-pyramide .pyramide .pyramide-blocks .pre-intermediate:hover p {
+          opacity: 1;
+          position: relative;
+          z-index: 2;
+          margin-top: -16px;
+          margin-right: 5px;
+          cursor: default;
+          color: #ffffff;
+          padding: 0 10px 0 10px; }
+    .course-pyramide .pyramide .pyramide-blocks .elementary {
+      position: absolute;
+      width: 900px;
+      height: 80px;
+      left: 230px;
+      top: 610px;
+      font-weight: 500;
+      border: 1px solid #A5EF00;
+      -webkit-box-align: end;
+          -ms-flex-align: end;
+              align-items: end;
+      -webkit-transition: background-color 1.5s ease-out;
+      transition: background-color 1.5s ease-out; }
+      .course-pyramide .pyramide .pyramide-blocks .elementary span {
+        opacity: 1;
+        position: relative;
+        padding: 5px 0 0 5px; }
+      .course-pyramide .pyramide .pyramide-blocks .elementary p {
+        opacity: 0;
+        position: relative;
+        line-height: 25px; }
+      .course-pyramide .pyramide .pyramide-blocks .elementary:hover {
+        width: 1100px;
+        height: 135px;
+        left: 30px;
+        top: 600px;
+        z-index: 2;
+        background-color: #89c900;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; }
+        .course-pyramide .pyramide .pyramide-blocks .elementary:hover span {
+          opacity: 0;
+          position: relative; }
+        .course-pyramide .pyramide .pyramide-blocks .elementary:hover p {
+          opacity: 1;
+          position: relative;
+          z-index: 2;
+          margin-top: -16px;
+          margin-right: 5px;
+          cursor: default;
+          color: #ffffff;
+          padding: 0 10px 0 10px; }
+    .course-pyramide .pyramide .pyramide-blocks .Start {
+      position: absolute;
+      width: 1100px;
+      height: 80px;
+      left: 30px;
+      top: 710px;
+      font-weight: 500;
+      border: 1px solid #4BDC35;
+      -webkit-box-align: end;
+          -ms-flex-align: end;
+              align-items: end;
+      -webkit-transition: background-color 2s ease-out;
+      transition: background-color 2s ease-out; }
+      .course-pyramide .pyramide .pyramide-blocks .Start span {
+        opacity: 1;
+        position: relative;
+        padding: 5px 0 0 5px; }
+      .course-pyramide .pyramide .pyramide-blocks .Start p {
+        opacity: 0;
+        position: relative;
+        line-height: 25px; }
+      .course-pyramide .pyramide .pyramide-blocks .Start:hover {
+        top: 700px;
+        height: 115px;
+        background-color: #3ebb2e;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; }
+        .course-pyramide .pyramide .pyramide-blocks .Start:hover span {
+          opacity: 0;
+          position: relative; }
+        .course-pyramide .pyramide .pyramide-blocks .Start:hover p {
+          opacity: 1;
+          position: relative;
+          z-index: 2;
+          margin-top: -16px;
+          margin-right: 5px;
+          cursor: default;
+          color: #ffffff;
+          padding: 0 10px 0 10px; }
+    .course-pyramide .pyramide .pyramide-blocks .babyad {
+      position: absolute;
+      width: 156px;
+      height: 65px;
+      left: 58px;
+      top: 630px; }
+    .course-pyramide .pyramide .pyramide-blocks .babyblock {
+      position: absolute;
+      width: 84px;
+      height: 109px;
+      left: 280px;
+      top: 486px; }
+    .course-pyramide .pyramide .pyramide-blocks .toddler {
+      position: absolute;
+      width: 63px;
+      height: 133px;
+      left: 472px;
+      top: 370px; }
+    .course-pyramide .pyramide .pyramide-blocks .boy {
+      position: absolute;
+      width: 53px;
+      height: 146px;
+      left: 650px;
+      top: 260px; }
+    .course-pyramide .pyramide .pyramide-blocks .youngster {
+      position: absolute;
+      width: 65px;
+      height: 151px;
+      left: 850px;
+      top: 140px; }
+    .course-pyramide .pyramide .pyramide-blocks .man {
+      position: absolute;
+      width: 55px;
+      height: 200px;
+      left: 990px;
+      top: 10px; }
+    .course-pyramide .pyramide .pyramide-blocks .horisont {
+      width: 50px;
+      border: 1px solid #2c3e50; }
+    .course-pyramide .pyramide .pyramide-blocks .line1 {
+      position: absolute;
+      right: 116px;
+      top: 380px; }
+    .course-pyramide .pyramide .pyramide-blocks .line2 {
+      position: absolute;
+      right: 116px;
+      top: 550px; }
+    .course-pyramide .pyramide .pyramide-blocks .line3 {
+      position: absolute;
+      right: 116px;
+      top: 580px; }
+    .course-pyramide .pyramide .pyramide-blocks .line4 {
+      position: absolute;
+      right: 116px;
+      top: 780px; }
+    .course-pyramide .pyramide .pyramide-blocks .vertical {
+      border: 1px solid #2c3e50;
+      -webkit-transform: rotate(90deg);
+              transform: rotate(90deg); }
+    .course-pyramide .pyramide .pyramide-blocks .line5 {
+      position: absolute;
+      right: 31px;
+      top: 465px;
+      width: 169px; }
+    .course-pyramide .pyramide .pyramide-blocks .line6 {
+      position: absolute;
+      right: 18px;
+      top: 680px;
+      width: 197px; }
+    .course-pyramide .pyramide .pyramide-blocks .course-block1 {
+      position: absolute;
+      right: 20px;
+      top: 680px; }
+    .course-pyramide .pyramide .pyramide-blocks .course-block2 {
+      position: absolute;
+      right: 20px;
+      top: 465px; }
+  .course-pyramide .pyramide .pyramide-accordeon {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 20px 0 20px;
+    font-weight: 500;
+    text-align: center;
+    display: none; }
+    .course-pyramide .pyramide .pyramide-accordeon .all {
+      text-align: center; }
+      .course-pyramide .pyramide .pyramide-accordeon .all input[type="checkbox"] {
+        display: none; }
+        .course-pyramide .pyramide .pyramide-accordeon .all input[type="checkbox"]:checked + label {
+          background-color: #2980b9;
+          color: white; }
+          .course-pyramide .pyramide .pyramide-accordeon .all input[type="checkbox"]:checked + label:before {
+            content: 'Close All'; }
+      .course-pyramide .pyramide .pyramide-accordeon .all label {
+        position: relative;
+        margin: 0;
+        padding: 5px 30px;
+        font-size: 14px;
+        font-weight: 300;
+        color: #ffb200;
+        background-color: #fff;
+        border: 1px solid #ffb200;
+        border-radius: 99px; }
+        .course-pyramide .pyramide .pyramide-accordeon .all label:before {
+          content: 'Open All'; }
+    .course-pyramide .pyramide .pyramide-accordeon .accordion {
+      position: relative;
+      width: 80%;
+      margin: 50px auto;
+      -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+              box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); }
+      .course-pyramide .pyramide .pyramide-accordeon .accordion .trigger #checkbox-1, .course-pyramide .pyramide .pyramide-accordeon .accordion .trigger #checkbox-2, .course-pyramide .pyramide .pyramide-accordeon .accordion .trigger #checkbox-3, .course-pyramide .pyramide .pyramide-accordeon .accordion .trigger #checkbox-4, .course-pyramide .pyramide .pyramide-accordeon .accordion .trigger #checkbox-5, .course-pyramide .pyramide .pyramide-accordeon .accordion .trigger #checkbox-6 {
+        display: none; }
+        .course-pyramide .pyramide .pyramide-accordeon .accordion .trigger #checkbox-1:checked + label, .course-pyramide .pyramide .pyramide-accordeon .accordion .trigger #checkbox-2:checked + label, .course-pyramide .pyramide .pyramide-accordeon .accordion .trigger #checkbox-3:checked + label, .course-pyramide .pyramide .pyramide-accordeon .accordion .trigger #checkbox-4:checked + label, .course-pyramide .pyramide .pyramide-accordeon .accordion .trigger #checkbox-5:checked + label, .course-pyramide .pyramide .pyramide-accordeon .accordion .trigger #checkbox-6:checked + label {
+          background-color: #ffb600; }
+          .course-pyramide .pyramide .pyramide-accordeon .accordion .trigger #checkbox-1:checked + label span:before, .course-pyramide .pyramide .pyramide-accordeon .accordion .trigger #checkbox-2:checked + label span:before, .course-pyramide .pyramide .pyramide-accordeon .accordion .trigger #checkbox-3:checked + label span:before, .course-pyramide .pyramide .pyramide-accordeon .accordion .trigger #checkbox-4:checked + label span:before, .course-pyramide .pyramide .pyramide-accordeon .accordion .trigger #checkbox-5:checked + label span:before, .course-pyramide .pyramide .pyramide-accordeon .accordion .trigger #checkbox-6:checked + label span:before {
+            -webkit-transform: translate(5px, 8px) rotate(45deg);
+                    transform: translate(5px, 8px) rotate(45deg); }
+          .course-pyramide .pyramide .pyramide-accordeon .accordion .trigger #checkbox-1:checked + label span:after, .course-pyramide .pyramide .pyramide-accordeon .accordion .trigger #checkbox-2:checked + label span:after, .course-pyramide .pyramide .pyramide-accordeon .accordion .trigger #checkbox-3:checked + label span:after, .course-pyramide .pyramide .pyramide-accordeon .accordion .trigger #checkbox-4:checked + label span:after, .course-pyramide .pyramide .pyramide-accordeon .accordion .trigger #checkbox-5:checked + label span:after, .course-pyramide .pyramide .pyramide-accordeon .accordion .trigger #checkbox-6:checked + label span:after {
+            -webkit-transform: translate(-5px, 8px) rotate(-45deg);
+                    transform: translate(-5px, 8px) rotate(-45deg); }
+      .course-pyramide .pyramide .pyramide-accordeon .accordion .trigger .checkbox {
+        position: relative;
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 30px;
+        color: #2c3e50;
+        cursor: pointer;
+        background-color: #FFD573; }
+        .course-pyramide .pyramide .pyramide-accordeon .accordion .trigger .checkbox span {
+          position: absolute;
+          display: inline-block;
+          width: 20px;
+          height: 20px;
+          right: 20px; }
+          .course-pyramide .pyramide .pyramide-accordeon .accordion .trigger .checkbox span:before, .course-pyramide .pyramide .pyramide-accordeon .accordion .trigger .checkbox span:after {
+            position: absolute;
+            content: '';
+            width: 16px;
+            height: 3px;
+            background-color: #2c3e50;
+            -webkit-transition: -webkit-transform 250ms ease;
+            transition: -webkit-transform 250ms ease;
+            transition: transform 250ms ease;
+            transition: transform 250ms ease, -webkit-transform 250ms ease; }
+          .course-pyramide .pyramide .pyramide-accordeon .accordion .trigger .checkbox span:before {
+            -webkit-transform: translate(-5px, 8px) rotate(45deg);
+                    transform: translate(-5px, 8px) rotate(45deg); }
+          .course-pyramide .pyramide .pyramide-accordeon .accordion .trigger .checkbox span:after {
+            -webkit-transform: translate(5px, 8px) rotate(-45deg);
+                    transform: translate(5px, 8px) rotate(-45deg); }
+      .course-pyramide .pyramide .pyramide-accordeon .accordion .trigger .accordeon-content {
+        position: relative;
+        max-height: 1px;
+        padding: 0 10px 0 10px;
+        overflow-y: scroll;
+        font-size: 14px;
+        line-height: 1.5;
+        background-color: whitesmoke;
+        -webkit-transition: max-height 500ms ease-in-out;
+        transition: max-height 500ms ease-in-out; }
+        .course-pyramide .pyramide .pyramide-accordeon .accordion .trigger .accordeon-content h3 {
+          margin: 30px 0 15px 30px; }
+        .course-pyramide .pyramide .pyramide-accordeon .accordion .trigger .accordeon-content p {
+          margin: 0 30px 30px; }
+    .course-pyramide .pyramide .pyramide-accordeon #checkbox-1:checked ~ .accordeon-content,
+    .course-pyramide .pyramide .pyramide-accordeon #checkbox-2:checked ~ .accordeon-content,
+    .course-pyramide .pyramide .pyramide-accordeon #checkbox-3:checked ~ .accordeon-content,
+    .course-pyramide .pyramide .pyramide-accordeon #checkbox-4:checked ~ .accordeon-content,
+    .course-pyramide .pyramide .pyramide-accordeon #checkbox-5:checked ~ .accordeon-content,
+    .course-pyramide .pyramide .pyramide-accordeon #checkbox-6:checked ~ .accordeon-content {
+      max-height: 350px;
+      -webkit-transition: max-height 500ms ease-in-out;
+      transition: max-height 500ms ease-in-out; }
+
+h2 {
+  text-align: center; }
+
+.best-courses {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 1140px; }
+  .best-courses .block-banner {
+    width: 100%;
+    height: 250px;
+    margin: 15px auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 30px; }
+    .best-courses .block-banner .block-banner-btns {
+      padding: 25px; }
+      .best-courses .block-banner .block-banner-btns a {
+        width: 280px;
+        height: 35px;
+        font-size: 24px;
+        font-weight: 600;
+        text-decoration: none; }
+        .best-courses .block-banner .block-banner-btns a:hover {
+          background: #fff;
+          color: #2c3e50;
+          cursor: pointer; }
+      .best-courses .block-banner .block-banner-btns .y-knopa {
+        width: 100px;
+        height: 30px;
+        margin: 15px 20px; }
+        .best-courses .block-banner .block-banner-btns .y-knopa:hover {
+          background: -webkit-gradient(linear, left top, left bottom, from(#FFB200), to(#FFE600));
+          background: linear-gradient(#FFB200, #FFE600);
+          cursor: pointer;
+          -webkit-transition: top 1s ease-out 0.5s;
+          transition: top 1s ease-out 0.5s; }
+      .best-courses .block-banner .block-banner-btns .d-knopa {
+        width: 320px;
+        height: 30px;
+        font-size: 24px;
+        margin: 15px 20px; }
+        .best-courses .block-banner .block-banner-btns .d-knopa:hover {
+          background: #fff;
+          color: #2c3e50;
+          -webkit-transition: top 1s ease-out 0.5s;
+          transition: top 1s ease-out 0.5s; }
+    .best-courses .block-banner h3 {
+      -ms-flex-item-align: end;
+          align-self: end;
+      padding: 20px; }
+  .best-courses .million {
+    background-image: url(../images/elena-mozhvilo-4HmRaRF7s1Y-unsplash3.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    padding: 40px; }
+  .best-courses .begin {
+    background-image: url(../images/start2.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    padding: 40px; }
+  .best-courses .middle {
+    background-image: url(../images/winner1.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom -30px center;
+    background-size: cover;
+    padding: 40px; }
+  .best-courses .episods {
+    background-image: url(../images/white-male-1847732_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    padding: 40px; }
+  .best-courses .songs {
+    background-image: url(../images/music.jpg);
+    background-repeat: no-repeat;
+    background-position: top -20px center;
+    background-size: cover;
+    padding: 40px; }
+  .best-courses .kids {
+    background-image: url(../images/kids.jpg);
+    background-repeat: no-repeat;
+    background-position: top right -20px;
+    background-size: cover;
+    padding: 40px;
+    margin-bottom: 50px; }
+
 .footer {
   width: 100%;
   height: 250px;
@@ -9178,6 +9803,19 @@ a {
 
 .header-burger {
   display: none; }
+
+@media (max-width: 1139px) {
+  .pyramide-blocks {
+    display: none; }
+  .pyramide-accordeon {
+    display: block !important;
+    width: 50%; }
+  .pyramide-txtzone {
+    width: 50% !important;
+    padding-left: 15px; }
+    .pyramide-txtzone p {
+      margin-right: 0px !important;
+      width: 100% !important; } }
 
 @media (max-width: 1000px) {
   .wrapper {
@@ -9400,7 +10038,55 @@ a {
     .success-counter_markers h3 {
       font-size: 27px !important; }
     .success-counter_markers h5 {
-      font-size: 16px !important; } }
+      font-size: 16px !important; }
+  .course-podbor-top {
+    background: transparent;
+    text-align: center; }
+    .course-podbor-top p {
+      width: 100%;
+      line-height: 30px;
+      margin-bottom: 30px; }
+    .course-podbor-top .course-buttons {
+      margin-left: 15%; }
+      .course-podbor-top .course-buttons a {
+        margin-left: 15px; }
+  .pyramide {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: auto;
+    padding: 30px; }
+    .pyramide .pyramide-accordeon {
+      width: 100%;
+      text-align: center;
+      margin: 40px auto !important;
+      text-align: center; }
+    .pyramide .pyramide-txtzone {
+      width: 80% !important;
+      text-align: center;
+      margin: auto;
+      padding-right: 15px;
+      padding-top: 30px; }
+      .pyramide .pyramide-txtzone p {
+        margin: 0px !important;
+        padding-bottom: 30px; }
+  .block-banner .block-banner-btns {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .block-banner .block-banner-btns a {
+      margin-top: 5px !important;
+      font-size: 18px !important;
+      text-align: center;
+      padding: 2px; }
+    .block-banner .block-banner-btns .d-knopa {
+      -ms-flex-item-align: center;
+          align-self: center; } }
 
 @media (max-width: 767px) {
   body.lock {
@@ -9441,6 +10127,19 @@ a {
       margin-bottom: 15px !important;
       text-align: center; } }
 
+@media (max-width: 590px) {
+  .course-podbor-top .course-buttons {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: auto !important; }
+    .course-podbor-top .course-buttons a {
+      margin: 20px 0px; } }
+
 @media (max-width: 450px) {
   .top-banner {
     padding-left: 40px !important; }
@@ -9451,4 +10150,6 @@ a {
     .top-banner h4 {
       display: none; }
     .top-banner a {
-      font-size: 12px !important; } }
+      font-size: 12px !important; }
+  .course-pyramide {
+    margin-top: 70px !important; } }
