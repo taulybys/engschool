@@ -18,12 +18,14 @@
           <nav class="header_menu">
             <ul class="d-flex header_list">
               <li><a class="header_link" href="course.html">Курсы</a></li>
-              <li><a class="header_link" href="">Акции</a></li>
+              <li><a class="header_link" href="promo.html">Акции</a></li>
               <li><a class="header_link" href="aboutme.html">Обо мне</a></li>
-              <li><a class="header_link" href="">Отзывы</a></li>
+              <li><a class="header_link" href="reviewchoice.html">Отзывы</a></li>
             </ul>
           </nav>
-          <div class="header_contacts d-flex"><a class="top-content_comein" href="">Вход/регистрация</a></div>
+          <div class="header_contacts d-flex">
+            <button class="top-content_comein" onclick="show('block')">Вход/регистрация</button>
+          </div>
         </div>
       </div>
     </header>
@@ -32,6 +34,22 @@
         <li><a href=""><img class="top-contacts_soclabel" img="img" src="images/telegram.png" alt="telegram"/></a></li>
         <li><a href=""><img class="top-contacts_soclabel" img="img" src="images/instagram.png" alt="imstagram"/></a></li>
       </ul>
+    </div>
+    <div id="yellow" onclick="show('none')"><span></span></div>
+    <div id="registration"><img class="close-registration" img="img" src="images/cross-rounded-outline.png" alt="close-registration" onclick="show('none')"/>
+      <div class="registration-body">
+        <h3>Регистрация</h3>
+        <form class="d-flex registrationform" action="index.html" name="f1">
+          <input class="input" type="text" placeholder="Имя" name="name1"/>
+          <input class="input" type="text" placeholder="Фамилия" name="name2"/>
+          <input class="input" type="email" placeholder="Электронная почта" name="email1"/>
+          <input class="input" type="email" placeholder="Подтвердите адрес Электронной Почты" name="email2"/>
+          <input class="input" type="password" placeholder="Пароль" name="pass1"/>
+          <input class="input" type="password" placeholder="Подтвердите пароль" name="pass2"/>
+          <input class="input" type="tel" placeholder="Мобильный телефон" name="tel"/>
+          <button class="form-btnsubmit" type="submit" value="Регистрация" name="sab">Зарегистрироваться</button><span>Нажимая «Регистрация», вы подтверждаете, что прочитали и согласны с нашими Условиями Пользования и Политикой Конфиденциальности.</span>
+        </form>
+      </div>
     </div>
     <!--end header-->
     <section>
@@ -159,9 +177,9 @@
         <div class="footer-contents d-flex">
           <nav class="footer-menu col-md-4">
             <ul class="d-flex">
-              <li><a href="">Курсы</a></li>
-              <li><a href="">Акции</a></li>
-              <li><a href="">Обо мне</a></li>
+              <li><a href="course.html">Курсы</a></li>
+              <li><a href="promo.html">Акции</a></li>
+              <li><a href="aboutme.html">Обо мне</a></li>
               <li><a href="">Отзывы</a></li>
             </ul>
           </nav>
@@ -183,12 +201,12 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/base.js"></script>
     <script src="js/counter.js"></script>
     <script src="js/popupTarif.js"></script>
     <script src="js/carousel.js"></script>
     <script src="js/burger.js"></script>
     <script src="js/accordeon.js"></script>
+    <script src="js/popups.js"></script>
     <!--end scripts-->
   </div>
 </body>
