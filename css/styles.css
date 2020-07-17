@@ -8684,6 +8684,8 @@ a {
             color: #ffb200;
             -webkit-transition: all 0.3s ease 0s;
             transition: all 0.3s ease 0s; }
+          .header .header-container .header_body .header_contacts .top-content_comein:active, .header .header-container .header_body .header_contacts .top-content_comein:focus {
+            outline: none; }
 
 .header-aside_body {
   list-style: none;
@@ -8722,7 +8724,7 @@ a {
   background-position: top right;
   background-size: 50%;
   max-width: 1140px;
-  height: 700px;
+  height: 680px;
   margin-top: 130px;
   padding-left: 140px;
   font-family: "Montserrat", sans-serif; }
@@ -9254,8 +9256,8 @@ a {
       -webkit-box-align: end;
           -ms-flex-align: end;
               align-items: end;
-      -webkit-transition: background-color 1.5s ease-out;
-      transition: background-color 1.5s ease-out; }
+      -webkit-transition: background-color 1s ease-out;
+      transition: background-color 1s ease-out; }
       .course-pyramide .pyramide .pyramide-blocks .advanced span {
         opacity: 1;
         position: relative;
@@ -9307,8 +9309,8 @@ a {
       -webkit-box-align: end;
           -ms-flex-align: end;
               align-items: end;
-      -webkit-transition: background-color 1.5s ease-out;
-      transition: background-color 1.5s ease-out; }
+      -webkit-transition: background-color 1s ease-out;
+      transition: background-color 1s ease-out; }
       .course-pyramide .pyramide .pyramide-blocks .upper-intermediate span {
         opacity: 1;
         position: relative;
@@ -9360,8 +9362,8 @@ a {
       -webkit-box-align: end;
           -ms-flex-align: end;
               align-items: end;
-      -webkit-transition: background-color 1.5s ease-out;
-      transition: background-color 1.5s ease-out; }
+      -webkit-transition: background-color 1s ease-out;
+      transition: background-color 1s ease-out; }
       .course-pyramide .pyramide .pyramide-blocks .intermediate span {
         opacity: 1;
         position: relative;
@@ -9410,8 +9412,8 @@ a {
       -webkit-box-align: end;
           -ms-flex-align: end;
               align-items: end;
-      -webkit-transition: background-color 1.5s ease-out;
-      transition: background-color 1.5s ease-out; }
+      -webkit-transition: background-color 1s ease-out;
+      transition: background-color 1s ease-out; }
       .course-pyramide .pyramide .pyramide-blocks .pre-intermediate span {
         opacity: 1;
         position: relative;
@@ -9460,8 +9462,8 @@ a {
       -webkit-box-align: end;
           -ms-flex-align: end;
               align-items: end;
-      -webkit-transition: background-color 1.5s ease-out;
-      transition: background-color 1.5s ease-out; }
+      -webkit-transition: background-color 1s ease-out;
+      transition: background-color 1s ease-out; }
       .course-pyramide .pyramide .pyramide-blocks .elementary span {
         opacity: 1;
         position: relative;
@@ -9510,8 +9512,8 @@ a {
       -webkit-box-align: end;
           -ms-flex-align: end;
               align-items: end;
-      -webkit-transition: background-color 2s ease-out;
-      transition: background-color 2s ease-out; }
+      -webkit-transition: background-color 1s ease-out;
+      transition: background-color 1s ease-out; }
       .course-pyramide .pyramide .pyramide-blocks .Start span {
         opacity: 1;
         position: relative;
@@ -9961,11 +9963,17 @@ section.review-choice {
     padding-top: 90px;
     padding-bottom: 160px;
     -ms-flex-pack: distribute;
-        justify-content: space-around; }
-    section.review-choice .review-btns .review-look-to-left a {
-      text-decoration: none; }
-    section.review-choice .review-btns .review-look-to-right a {
-      text-decoration: none; }
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+    section.review-choice .review-btns .review-look-to-left {
+      margin-bottom: 20px; }
+      section.review-choice .review-btns .review-look-to-left a {
+        text-decoration: none; }
+    section.review-choice .review-btns .review-look-to-right {
+      margin-bottom: 20px; }
+      section.review-choice .review-btns .review-look-to-right a {
+        text-decoration: none; }
 
 section.review-form-body {
   -webkit-box-orient: vertical;
@@ -9992,9 +10000,16 @@ section.review-form-body {
     background-size: cover;
     border-radius: 30px;
     padding: 25px; }
+    section.review-form-body form.review-form-map .error {
+      width: 80%;
+      margin: 5px auto;
+      text-align: left;
+      background: rgba(255, 89, 0, 0.6);
+      border-radius: 10px;
+      padding: 3px 20px; }
     section.review-form-body form.review-form-map .form-client-name {
-      width: 30%;
-      margin: 30px 40px 30px 40px;
+      width: 80%;
+      margin: 5px 40px 20px 40px;
       padding: 5px 25px;
       border: transparent; }
       section.review-form-body form.review-form-map .form-client-name:focus, section.review-form-body form.review-form-map .form-client-name:active {
@@ -10011,8 +10026,8 @@ section.review-form-body {
       section.review-form-body form.review-form-map .form-client-name::placeholder {
         color: lightgray; }
     section.review-form-body form.review-form-map .form-client-age {
-      width: 30%;
-      margin: 30px 40px 30px 40px;
+      width: 80%;
+      margin: 5px 40px 20px 40px;
       border: transparent;
       padding: 5px 25px; }
       section.review-form-body form.review-form-map .form-client-age:focus, section.review-form-body form.review-form-map .form-client-age:active {
@@ -10030,7 +10045,7 @@ section.review-form-body {
         color: lightgray; }
     section.review-form-body form.review-form-map .form-client-profession {
       width: 80%;
-      margin: 0px auto 30px;
+      margin: 0px auto 20px;
       height: 40px;
       border: transparent;
       padding: 5px 25px; }
@@ -10087,6 +10102,55 @@ section.review-list {
     section.review-list .review-list-block h6 {
       padding: 20px;
       border-bottom: 1px solid #ffb600; }
+
+.reviewthx {
+  padding-top: 160px;
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 60vh; }
+  .reviewthx h2 {
+    text-align: center; }
+
+section.errpage {
+  background-image: url(../images/for-404.jpg);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 40%;
+  height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  section.errpage h2 {
+    line-height: 50px;
+    max-width: 900px;
+    margin: 200px 10px 30px 450px; }
+  section.errpage nav {
+    max-width: 900px;
+    margin: 10px 10px 30px 450px; }
+    section.errpage nav ul {
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -ms-flex-pack: distribute;
+          justify-content: space-around; }
+      section.errpage nav ul li {
+        list-style: none;
+        padding: 7px;
+        width: 30%;
+        text-align: center; }
+        section.errpage nav ul li a {
+          text-decoration: none;
+          font-size: 21px; }
+          section.errpage nav ul li a:hover {
+            color: #ffb600;
+            -webkit-transition: all 0.3s ease 0s;
+            transition: all 0.3s ease 0s;
+            cursor: pointer; }
 
 .footer {
   width: 100%;
@@ -10159,7 +10223,12 @@ section.review-list {
     padding-left: 15px; }
     .pyramide-txtzone p {
       margin-right: 0px !important;
-      width: 100% !important; } }
+      width: 100% !important; }
+  .errpage .errmenu {
+    max-width: 80% !important;
+    margin: auto; }
+    .errpage .errmenu a {
+      font-size: 16px; } }
 
 @media (max-width: 1000px) {
   .wrapper {
@@ -10227,7 +10296,10 @@ section.review-list {
     .second-about .second-about-img .rectangle-np2 .second-about-roundedphoto {
       width: 300px !important;
       height: 324px !important;
-      border-radius: 0px 181.5px !important; } }
+      border-radius: 0px 181.5px !important; }
+  .errpage h2 {
+    font-size: 25px;
+    margin-left: 300px !important; } }
 
 @media (max-width: 768px) {
   h2 {
@@ -10503,7 +10575,9 @@ section.review-list {
   .review-list {
     padding-top: 100px !important; }
     .review-list h2 {
-      padding-bottom: 20px !important; } }
+      padding-bottom: 20px !important; }
+  .errpage h2 {
+    margin-top: 100px !important; } }
 
 @media (max-width: 767px) {
   body.lock {
@@ -10515,6 +10589,8 @@ section.review-list {
   .top-banner {
     padding-left: 80px !important;
     height: 600px; }
+  .rasschet-zarabotok {
+    margin-top: 70px; }
   .why-create h3 {
     font-size: 20px !important; }
   .why-create .why-created_imgzone {
@@ -10542,7 +10618,15 @@ section.review-list {
       font-size: 14px !important; }
     .test-col-for-mob a {
       margin-bottom: 15px !important;
-      text-align: center; } }
+      text-align: center; }
+  .errpage {
+    background-position: top center !important;
+    margin-top: 0; }
+    .errpage h2 {
+      margin: 200px 30px 30px 30px !important;
+      width: 90%;
+      text-align: center;
+      font-size: 18px; } }
 
 @media (max-width: 590px) {
   .course-podbor-top .course-buttons {
@@ -10580,11 +10664,22 @@ section.review-list {
       display: none; }
     .top-banner a {
       font-size: 12px !important; }
+  .rasschet-zarabotok {
+    margin-top: 5px; }
   .course-pyramide {
     margin-top: 70px !important; }
   .footer-contacts p {
     font-size: 10px !important;
-    margin: 5px 0px 5px 0px !important; } }
+    margin: 5px 0px 5px 0px !important; }
+  .errpage h2 {
+    margin-top: 100px !important;
+    margin-left: 20px !important; }
+  .errpage nav {
+    margin: auto !important; }
+    .errpage nav ul {
+      padding: 5px !important; }
+      .errpage nav ul li {
+        width: 80% !important; } }
 
 @font-face {
   font-family: "Ekaterina";
@@ -10601,7 +10696,9 @@ section.review-list {
   left: 0;
   z-index: 950;
   display: none;
-  overflow: auto; }
+  overflow: auto;
+  -webkit-transition: top 3s ease-out;
+  transition: top 3s ease-out; }
 
 #registration {
   display: none;
@@ -10617,6 +10714,8 @@ section.review-list {
   background-position: center;
   background-size: cover;
   border-radius: 30px;
+  -webkit-transition: top 3s ease-out;
+  transition: top 3s ease-out;
   position: fixed;
   top: 0;
   right: 0;
