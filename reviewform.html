@@ -54,10 +54,10 @@
     <!--end header-->
     <section class="width1140 d-flex review-form-body">
       <h2>Будем рады Вашим отзывам!</h2>
-      <form class="d-flex review-form-map">
-        <input class="form-client-name" type="text" name="" placeholder="Ваше имя" required="required"/>
-        <input class="form-client-age" type="number" name="" placeholder="Возраст" required="required"/>
-        <input class="form-client-profession" type="text" name="" placeholder="Профессия" required="required"/>
+      <form class="d-flex review-form-map" action="php/reviewsupport.php" method="post" name="f1">
+        <input class="form-client-name" type="text" name="name" placeholder="Ваше имя"/>
+        <input class="form-client-age" type="text" name="socnet" placeholder="Вы в соцсети"/>
+        <input class="form-client-profession" type="text" name="profession" placeholder="Профессия"/>
         <textarea class="form-review" name="review" placeholder="Ваш отзыв о нас" rows="10" cols="45"></textarea>
         <button class="form-btnsubmit" type="submit">Отправить</button>
       </form>

@@ -1,3 +1,38 @@
+<?php 
+error_reporting(0);
+
+if ( !empty($_POST) && trim($_POST['name']) != '' && trim($_POST['socnet']) != '' && trim($_POST['review']) != '' && trim($_POST['profession']) != ''  ) {
+
+$message =  "Вам пришло новое сообщение с сайта: \n" .
+            "Имя отправителя: " . $_POST['name'] . "\n" .
+            "Соцcеть аккаунт отправителя: ". $_POST['socnet'] . "\n" .
+            "Сообщение: ". $_POST['profession'];
+            "Сообщение: ". $_POST['review'];
+
+    mail('tulybysheva@yandex.ru', 'Сообщение с сайта', $message );
+
+    header('Location: reviewthanx.html');
+
+}
+
+
+function checkValue($item, $message) {
+
+  if ( isset($item) && trim($item) == '') {
+    echo '<div class="error">' . $message . '</div>';
+  }
+ } 
+
+function printPostValue($item) {
+
+    if(isset($item) && strlen(trim($item)) > 0) {
+            echo $item;
+          }
+}
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en"></html>
 <head>
@@ -52,12 +87,47 @@
       </div>
     </div>
     <!--end header-->
-    <section class="width1140 d-flex review-choice">
-      <h2>Вы хотите:</h2>
-      <div class="review-btns d-flex">
-        <div class="review-look-to-left d-flex"><a class="review-large-buttons btn-l" href="reviewfor.php">Оставить отзыв</a></div>
-        <div class="review-look-to-right d-flex"><a class="review-large-buttons btn-r" href="reviewlist.html">Посмотреть отзывы</a></div>
-      </div>
+    <section class="width1140 d-flex review-form-body">
+      <h2>Будем рады Вашим отзывам!</h2>
+        <?php
+
+        echo "<pre>";
+        print_r($_POST);
+        echo "</pre>";
+        ?>
+
+      <form class="d-flex review-form-map" action="reviewfor.php" method="post" name="f1">
+        <?php checkValue($_POST['name'], 'Вы не ввели имя!'); ?>
+        <input
+          name="name" 
+          class="form-client-name" 
+          type="text" 
+          id = "name" 
+          placeholder="Ваше имя"
+          value = "<?php printPostValue($_POST['name']); ?>"
+         />
+
+        <?php checkValue($_POST['socnet'], 'Вы не ввели ссылку на соцсеть!'); ?>
+        <input 
+        name="socnet"
+        class="form-client-age" 
+        type="text" 
+        placeholder="Вы в соцсетях"
+        value = "<?php printPostValue($_POST['socnet']); ?>"
+        />
+
+        <?php checkValue($_POST['profession'], 'Вы не ввели профессию!'); ?>
+        <input name="profession" 
+        class="form-client-profession" 
+        type="text" 
+        placeholder="Профессия"
+        value = "<?php printPostValue($_POST['profession']); ?>"
+        />
+        
+        <?php checkValue($_POST['review'], 'Вы не ввели отзыв!'); ?>
+        <textarea name="review" class="form-review"  placeholder="Ваш отзыв о нас" rows="10" cols="45"><?php printPostValue($_POST['review']) ?></textarea>
+        <button class="form-btnsubmit" type="submit">Отправить</button>
+      </form>
     </section>
     <!--footer-->
     <footer class="footer">

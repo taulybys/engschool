@@ -52,12 +52,19 @@
       </div>
     </div>
     <!--end header-->
-    <section class="width1140 d-flex review-choice">
-      <h2>Вы хотите:</h2>
-      <div class="review-btns d-flex">
-        <div class="review-look-to-left d-flex"><a class="review-large-buttons btn-l" href="reviewfor.php">Оставить отзыв</a></div>
-        <div class="review-look-to-right d-flex"><a class="review-large-buttons btn-r" href="reviewlist.html">Посмотреть отзывы</a></div>
-      </div>
+    <section class="width1140 d-flex review-form-body">
+      <h2>Будем рады Вашим отзывам!</h2>
+      <form class="d-flex review-form-map" action="reviewfor.html" method="post" target="_blank" name="f1">
+        <div class="error">Вы не ввели имя!</div>
+        <input class="form-client-name" type="text" name="name" placeholder="Ваше имя" required="required"/>
+        <div class="error">Вы не ввели ссылку на соцсеть!</div>
+        <input class="form-client-age" type="text" name="socnet" placeholder="Вы в соцсетях" required="required"/>
+        <div class="error">Вы не ввели профессию!</div>
+        <input class="form-client-profession" type="text" name="profession" placeholder="Профессия" required="required"/>
+        <div class="error">Вы не ввели отзыв!</div>
+        <textarea class="form-review" name="review" placeholder="Ваш отзыв о нас" rows="10" cols="45"></textarea>
+        <button class="form-btnsubmit" type="submit">Отправить</button>
+      </form>
     </section>
     <!--footer-->
     <footer class="footer">
